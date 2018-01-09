@@ -6,6 +6,7 @@ int main(void) {
 	                int reverse=0;
 	                scanf("%d",&n);
 	                temp=n;
+			if(n<=1000)
 	                while(temp!=0)
 	                {
 	                	reverse=reverse*10;
